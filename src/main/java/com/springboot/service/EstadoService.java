@@ -23,4 +23,6 @@ public class EstadoService {
 	public List<Estado> list(){
 		return repo.findAll();
 	}
+	
+	
 }

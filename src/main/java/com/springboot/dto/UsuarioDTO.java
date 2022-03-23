@@ -1,15 +1,12 @@
 package com.springboot.dto;
 
-import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
 import com.springboot.domain.Usuario;
 
-public class UsuarioDTO implements Serializable {
-
-	private static final long serialVersionUID = 1L;
+public class UsuarioDTO {
 
 	private Integer idUsuario;
 	

@@ -30,4 +30,5 @@ public class EstadoController {
 		List<Estado> obj = service.list();
 		return ResponseEntity.ok().body(obj);
 	}
+	
 }
