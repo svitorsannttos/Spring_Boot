@@ -34,7 +34,7 @@ public class EstadoController {
 		return ResponseEntity.ok().body(obj);
 	}
 	
-	@GetMapping(value = "/page")
+	@GetMapping("/page")
 	public ResponseEntity<Page<Estado>> listPage(
 			@RequestParam(value = "page", defaultValue = "0") Integer page, 
 			@RequestParam(value = "linesPerPage", defaultValue="2") Integer linesPerPage, 
